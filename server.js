@@ -11,7 +11,6 @@ connectDB();
 app.use(express.json({ extended: false }));
 
 // Define Routes
-app.use('/api/applications', require('./routes/api/application'));
 app.use('/api/loan_agreements', require('./routes/api/loan_agreement'));
 
 
